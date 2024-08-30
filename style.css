@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+    background: linear-gradient(135deg, rgb(63, 53, 92), black);
+    color: white;
+}
+.container{
+    max-width: 700vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+
+}
+
+.topleft{
+    width:
+}
+
+.topright{ 
+    width: ;
+}
+
+.min-h-screen{
+    height: 800px;
+    background-image: url(https://scontent.fbbi3-1.fna.fbcdn.net/v/t1.6435-9/102835527_10158470024697164_6933433349523334270_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7b2446&_nc_ohc=kE9PpH4jEbQQ7kNvgFYj5sE&_nc_ht=scontent.fbbi3-1.fna&oh=00_AYB0EOtvZS49uOq2cBxC-2akQ4QgshQpVizLWjpLVq9L9A&oe=66F95181);
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.6;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 400px;
+}
+.section1{
+   max-height: 100vh; 
+   color: #f5f0ef;
+   
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.logo{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 0;
+    z-index: 5;
+    position: relative;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+.section4{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+.section4 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.section4 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 5px;
+    padding-left: 12px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+.foot{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+.foot li{
+    padding: 20px;
+}
+.made{
+    text-align: right;
+    padding: 2px;
+}
+form{
+    padding: 10px;
+}
+.form{
+    padding: 10px;
+}
